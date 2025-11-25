@@ -25,27 +25,29 @@ chatbot-atendimento/
 
 ------------------Inicialização do Backend (Django)-----------------------
 
-Navegue até a pasta chatbot-atendimento:
+-Navegue até a pasta chatbot-atendimento:
 
 cd chatbot-atendimento
 
+-Ativação do ambiente virtual:
 
-Instale as dependências:
+.\venv-backend\Scripts\activate
+
+-Instale as dependências:
 
 pip install django djangorestframework
 
 
-Execute as migrações para criar o banco de dados e as tabelas:
+-Execute as migrações para criar o banco de dados e as tabelas:
 
 python manage.py migrate
 
-
-Inicie o servidor Django:
+-Inicie o servidor Django:
 
 python manage.py runserver
 
 
-O servidor da API estará disponível em http://localhost:8000
+-O servidor da API estará disponível em http://localhost:8000
 
 ----------------------------Configuração e Inicialização do Frontend (React)-------------------------
 
